@@ -16,7 +16,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #550055;
-    font-family: "American Typewriter", "serif";
+    font-family:'cursive', "American Typewriter", "serif";
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:"courier",'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "courier",'Helvetica', 'Arial', 'Sans-Serif';
     color:#803224;
 }
 p {
