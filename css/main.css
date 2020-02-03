@@ -4,7 +4,7 @@ body {
     background:url("../images/brown.png");
 }
 nav ul, footer ul {
-    font-family:"American Typewriter", "serif",'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "OCR A Std", "American Typewriter",'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
