@@ -1,5 +1,5 @@
 function counter_fn(){
-       var counter = document.getElementById("cntr");
+       var counter =  $('#cntr span').text();
        var count = 0;
        count = parseInt(counter.value);
        count = count+1;
