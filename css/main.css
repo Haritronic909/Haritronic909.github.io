@@ -13,7 +13,11 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a p1 {
+a {
+    text-decoration: none;
+    color: #699;
+}
+p1 {
     text-decoration: none;
     color: #699;
 }
