@@ -4,7 +4,7 @@ body {
     background:url("../images/brown.png");
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:"Courier New','Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #E6DB97;
+    color: #97CAE6;
 }
 
 a:hover {
@@ -24,19 +24,19 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color:#CAE697;
+    color:##97CAE6;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #A3E697;
+    color: #DB97E6;
    
 }
 
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    color: #97E6B3;
+    color: #DB97E6;
 }
 
 ul.posts { 
