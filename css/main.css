@@ -1,50 +1,69 @@
 body {
-    margin: 60px auto;
-    width: 70%;
-    background:url("../images/brown.png");
+	background: linear-gradient(-45deg, rgba(4, 107, 59, 0.952), rgb(5, 104, 99),rgb(8, 100, 95));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
-nav ul, footer ul {
-    font-family: "OCR A Std", "American Typewriter",'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
-    color: #550055;
-    font-family: "Roboto", "American Typewriter", "serif";
-}
-
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family: "courier",'Helvetica', 'Arial', 'Sans-Serif';
-    color:#803224;
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #803224;
-   
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    color: #DB97E6;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
