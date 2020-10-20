@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, rgba(4, 107, 59, 0.952), rgb(5, 104, 99),rgb(8, 100, 95));
+	background: linear-gradient(-45deg, #046b3bf3, rgb(5, 104, 99),rgb(8, 100, 95));
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     }
@@ -19,14 +19,15 @@ body {
 
  .header {
     overflow: hidden;
-    background-color: rgb(80, 92, 14);
+    background-color: #2d2157e5;
     padding: 20px 10px;
+    border-radius: 15px;
  }
   
-  /* Style the header links */
+  /* Style the header links */  
   .header a {
     float: left;
-    color: black;
+    color: rgb(130, 211, 37);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -35,10 +36,11 @@ body {
     border-radius: 4px;
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
+ 
+  .header a.name {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: none;
+    font-family: 'Comfortaa', cursive;
   }
   
   /* Change the background color on mouse-over */
@@ -49,13 +51,15 @@ body {
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: dodgerblue;
+    background-color: rgb(255, 176, 30);
     color: white;
+    font-family: 'Comfortaa', cursive;
   }
   
   /* Float the link section to the right */
   .header-right {
     float: right;
+    font-family: 'Comfortaa', cursive;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -67,5 +71,60 @@ body {
     }
     .header-right {
       float: none;
+      font-family: 'Comfortaa', cursive;
     }
   }
+
+
+
+
+  /* Feel free to copy&paste color codes to your application */
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #246D5E }	/* Main Primary color */
+.color-primary-1 { color: #6DA398 }
+.color-primary-2 { color: #44887B }
+.color-primary-3 { color: #0E5144 }
+.color-primary-4 { color: #00362C }
+
+.color-secondary-1-0 { color: #2C4870 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #758AA8 }
+.color-secondary-1-2 { color: #4C668C }
+.color-secondary-1-3 { color: #142E54 }
+.color-secondary-1-4 { color: #051A38 }
+
+.color-secondary-2-0 { color: #479030 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #A2D890 }
+.color-secondary-2-2 { color: #70B45A }
+.color-secondary-2-3 { color: #286C12 }
+.color-secondary-2-4 { color: #114800 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 36,109, 94,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(109,163,152,1) }
+.rgba-primary-2 { color: rgba( 68,136,123,1) }
+.rgba-primary-3 { color: rgba( 14, 81, 68,1) }
+.rgba-primary-4 { color: rgba(  0, 54, 44,1) }
+
+.rgba-secondary-1-0 { color: rgba( 44, 72,112,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(117,138,168,1) }
+.rgba-secondary-1-2 { color: rgba( 76,102,140,1) }
+.rgba-secondary-1-3 { color: rgba( 20, 46, 84,1) }
+.rgba-secondary-1-4 { color: rgba(  5, 26, 56,1) }
+
+.rgba-secondary-2-0 { color: rgba( 71,144, 48,1) }	/* Main Secondary color (2) */
+.rgba-secondary-2-1 { color: rgba(162,216,144,1) }
+.rgba-secondary-2-2 { color: rgba(112,180, 90,1) }
+.rgba-secondary-2-3 { color: rgba( 40,108, 18,1) }
+.rgba-secondary-2-4 { color: rgba( 17, 72,  0,1) }
+
+/*
+Fonts:
+rounded
+font-family: 'Comfortaa', cursive;
+*/
