@@ -1,55 +1,71 @@
-body {
-  //background: linear-gradient(#042847e7,#042847b0, #042847ea);
-  background-color:#556;
-background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
-linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-background-size:80px 140px;
-background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+/* CSS HEX 
+--bottle-green: #1b7051ff;
+--medium-aquamarine: #6de8bbff;
+--granny-smith-apple: #afd391ff;
+--dark-khaki: #d0c97cff;
+--orange-yellow-crayola: #e0c472ff;
+--maximum-yellow-red: #f0be67ff;
+--wintergreen-dream: #558775ff;
+--gunmetal: #202733ff;
+*/
+
+/*
+Fonts:
+rounded
+font-family: 'Comfortaa', cursive;
+*/
+
+
+#bg {
+  background:
+  radial-gradient(circle, transparent 20%, #202733 20%, #202733 80%, transparent 80%, transparent),
+  radial-gradient(circle, transparent 20%, #202733 20%, #202733 80%, transparent 80%, transparent) 50px 50px,
+  linear-gradient(#6DE8BB 8px, transparent 8px) 0 -4px,
+  linear-gradient(90deg, #6DE8BB 8px, transparent 8px) -4px 0;
+  background-color: #202733;
+  background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  
 }
 
 
- .header {
-    overflow: hidden;
-    background-color:#470B40;
-    padding: 20px 10px;
-    border-radius: 15px;
- }
-  
+.header{
+  overflow: hidden;
+  background-color:#1B2A45;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+
   /* Style the header links */  
-  .header a {
-    float: left;
-    color: #471F0B;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
+.header a {
+  float: left;
+  color: #C8F7E6;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
   
  
-  .header a.name {
+.header a.name {
     font-size: 25px;
     font-weight: none;
     font-family: 'Comfortaa', cursive;
-  }
+}
   
   /* Change the background color on mouse-over */
-  .header a:hover {
+.header a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
   
   /* Style the active/current link*/
-  .header a.active {
+.header a.active {
     background-color: rgb(255, 176, 30);
     color: white;
     font-family: 'Comfortaa', cursive;
-  }
+}
   
   /* Float the link section to the right */
   .header-right {
@@ -71,57 +87,3 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   }
 
 
-
-
-
-
-  /* Feel free to copy&paste color codes to your application */
-
-
-/* As hex codes */
-
-.color-primary-0 { color: #246D5E }	/* Main Primary color */
-.color-primary-1 { color: #6DA398 }
-.color-primary-2 { color: #44887B }
-.color-primary-3 { color: #0E5144 }
-.color-primary-4 { color: #00362C }
-
-.color-secondary-1-0 { color: #2C4870 }	/* Main Secondary color (1) */
-.color-secondary-1-1 { color: #758AA8 }
-.color-secondary-1-2 { color: #4C668C }
-.color-secondary-1-3 { color: #142E54 }
-.color-secondary-1-4 { color: #051A38 }
-
-.color-secondary-2-0 { color: #479030 }	/* Main Secondary color (2) */
-.color-secondary-2-1 { color: #A2D890 }
-.color-secondary-2-2 { color: #70B45A }
-.color-secondary-2-3 { color: #286C12 }
-.color-secondary-2-4 { color: #114800 }
-
-
-
-/* As RGBa codes */
-
-.rgba-primary-0 { color: rgba( 36,109, 94,1) }	/* Main Primary color */
-.rgba-primary-1 { color: rgba(109,163,152,1) }
-.rgba-primary-2 { color: rgba( 68,136,123,1) }
-.rgba-primary-3 { color: rgba( 14, 81, 68,1) }
-.rgba-primary-4 { color: rgba(  0, 54, 44,1) }
-
-.rgba-secondary-1-0 { color: rgba( 44, 72,112,1) }	/* Main Secondary color (1) */
-.rgba-secondary-1-1 { color: rgba(117,138,168,1) }
-.rgba-secondary-1-2 { color: rgba( 76,102,140,1) }
-.rgba-secondary-1-3 { color: rgba( 20, 46, 84,1) }
-.rgba-secondary-1-4 { color: rgba(  5, 26, 56,1) }
-
-.rgba-secondary-2-0 { color: rgba( 71,144, 48,1) }	/* Main Secondary color (2) */
-.rgba-secondary-2-1 { color: rgba(162,216,144,1) }
-.rgba-secondary-2-2 { color: rgba(112,180, 90,1) }
-.rgba-secondary-2-3 { color: rgba( 40,108, 18,1) }
-.rgba-secondary-2-4 { color: rgba( 17, 72,  0,1) }
-
-/*
-Fonts:
-rounded
-font-family: 'Comfortaa', cursive;
-*/
