@@ -16,7 +16,7 @@ font-family: 'Comfortaa', cursive;
 */
 
 
-#bg {
+body {
   background:
   radial-gradient(circle, transparent 20%, #202733 20%, #202733 80%, transparent 80%, transparent),
   radial-gradient(circle, transparent 20%, #202733 20%, #202733 80%, transparent 80%, transparent) 50px 50px,
@@ -30,47 +30,38 @@ font-family: 'Comfortaa', cursive;
 
 .header{
   overflow: hidden;
-  background-color:#1B2A45;
+  background-color:#B2CED1;
   padding: 20px 10px;
   border-radius: 15px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  font-size:x-large;
+  color: #99010F;  
 }
 
   /* Style the header links */  
 .header a {
   float: left;
-  color: #C8F7E6;
+  color: #99010F;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
-  
- 
-.header a.name {
-    font-size: 25px;
-    font-weight: none;
-    font-family: 'Comfortaa', cursive;
-}
-  
-  /* Change the background color on mouse-over */
+    
+/* Change the background color on mouse-over */
 .header a:hover {
-    background-color: #ddd;
+    background-color: #47a560;
     color: black;
-}
-  
-  /* Style the active/current link*/
-.header a.active {
-    background-color: rgb(255, 176, 30);
-    color: white;
-    font-family: 'Comfortaa', cursive;
-}
+    font-weight: 1500;
+}    
   
   /* Float the link section to the right */
   .header-right {
     float: right;
-    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    font-size:large;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
