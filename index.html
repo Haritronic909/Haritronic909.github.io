@@ -27,9 +27,10 @@
                 <a href="mailto:hari2menon1234@gmail.com">Contact</a>
                 <a href="https://www.linkedin.com/in/kharishankar/" >LinkedIn</a>
                 <a href="/Resume.pdf">RESUME</a>
-                <a id="visits">...</a>
+                
             </div>
         </div>
+        <h2 id="count">0</h2>
 
         <main class="main">
         
@@ -38,7 +39,19 @@
 
         
         
-        <script src="" async defer></script>
+        <script >
+        const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount(){
+  fetch("https://api.countapi.xyz/update/hari.is-a.dev/rahul?amount=1")
+  .then(res => res.json())
+  .then(res => {
+    countEl.innerHTML = res.value;
+  })
+} 
+        </script>
     </body>
 </html>
 
