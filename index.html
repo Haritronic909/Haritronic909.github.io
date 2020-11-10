@@ -35,23 +35,9 @@
         <main class="main">
         
         </main>
-
-
-        
-        
-        <script >
-        const countEl = document.getElementById('count');
-
-updateVisitCount();
-
-function updateVisitCount(){
-  fetch("https://api.countapi.xyz/update/hari.is-a.dev/rahul?amount=1")
-  .then(res => res.json())
-  .then(res => {
-    countEl.innerHTML = res.value;
-  })
-} 
-        </script>
+<button onclick="clicked()">Press Me!</button>
+<script>
+</script>
     </body>
 </html>
 
